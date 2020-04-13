@@ -1,6 +1,7 @@
 # EgressIP IPAM Operator
 
 [![Build Status](https://travis-ci.org/redhat-cop/egressip-ipam-operator.svg?branch=master)](https://travis-ci.org/redhat-cop/egressip-ipam-operator) [![Docker Repository on Quay](https://quay.io/repository/redhat-cop/egressip-ipam-operator/status "Docker Repository on Quay")](https://quay.io/repository/redhat-cop/egressip-ipam-operator)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fraffaelespazzoli%2Fegressip-ipam-operator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fraffaelespazzoli%2Fegressip-ipam-operator?ref=badge_shield)
 
 This operator automates the assignment of egressIPs to namespaces.
 Namespaces can opt in to receiving one or more egressIPs with the following annotation `egressip-ipam-operator.redhat-cop.io/egressipam:<egressIPAM>`, where `egressIPAM` is the CRD that controls how egressIPs are assigned.
@@ -195,3 +196,7 @@ git push upstream <version>
 ```
 
 use this version format: vM.m.z
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fraffaelespazzoli%2Fegressip-ipam-operator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fraffaelespazzoli%2Fegressip-ipam-operator?ref=badge_large)
